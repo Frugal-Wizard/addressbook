@@ -3,7 +3,7 @@ import { AddrTestScenario } from '../scenario/AddrTestScenario';
 import { IdTestScenario } from '../scenario/IdTestScenario';
 import { RegisterTestScenario } from '../scenario/RegisterTestScenario';
 import { DeployTestScenario } from '../scenario/DeployTestScenario';
-import { ConfigurableDescriber, describeSetupActions } from 'contract-test-helper';
+import { ConfigurableDescriber, describeSetupActions } from '@theorderbookdex/contract-test-helper';
 
 export const describer = new ConfigurableDescriber<never>();
 

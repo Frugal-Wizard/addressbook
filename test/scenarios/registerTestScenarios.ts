@@ -1,7 +1,7 @@
 import { RegisterAction } from '../action/RegisterAction';
 import { describer } from '../describer/describer';
 import { RegisterTestScenario } from '../scenario/RegisterTestScenario';
-import { applySetupActions, generatorChain, permutations, range, TestError } from 'contract-test-helper';
+import { applySetupActions, generatorChain, permutations, range, TestError } from '@theorderbookdex/contract-test-helper';
 import { AddressBookState } from '../state/AddressBookState';
 import { AlreadyRegistered } from '../../dist/AddressBook';
 

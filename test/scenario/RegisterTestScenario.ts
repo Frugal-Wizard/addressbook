@@ -1,6 +1,6 @@
-import { Transaction } from 'abi2ts-lib';
+import { Transaction } from '@theorderbookdex/abi2ts-lib';
 import { AddressBookTestContext, AddressBookTestScenario, AddressBookTestScenarioProperties } from './AddressBookTestScenario';
-import { AddContextFunction } from 'contract-test-helper';
+import { AddContextFunction } from '@theorderbookdex/contract-test-helper';
 
 export interface RegisterTestContext extends AddressBookTestContext {
     readonly account: string;

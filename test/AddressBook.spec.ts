@@ -1,13 +1,13 @@
 import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import { expect } from 'chai';
-import { describeError } from 'contract-test-helper';
+import { describeError } from '@theorderbookdex/contract-test-helper';
 import { Registered } from '../dist/AddressBook';
 import { deployTestScenarios } from './scenarios/deployTestScenarios';
 import { registerTestScenarios } from './scenarios/registerTestScenarios';
 import { idTestScenarios } from './scenarios/idTestScenarios';
 import { addrTestScenarios } from './scenarios/addrTestScenarios';
-import { ZERO_ADDRESS } from 'abi2ts-lib';
+import { ZERO_ADDRESS } from '@theorderbookdex/abi2ts-lib';
 
 chai.use(chaiAsPromised);
 

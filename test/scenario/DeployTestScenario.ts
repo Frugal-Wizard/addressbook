@@ -1,4 +1,4 @@
-import { BaseTestContext, TestScenario } from 'contract-test-helper';
+import { BaseTestContext, TestScenario } from '@theorderbookdex/contract-test-helper';
 import { AddressBook } from '../../dist/AddressBook';
 
 export class DeployTestScenario extends TestScenario<BaseTestContext, AddressBook, string> {
