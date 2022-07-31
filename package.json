@@ -1,6 +1,6 @@
 {
   "name": "@theorderbookdex/addressbook",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "This is a Solidity smart contract created for the purpose of storing an address using 40 bits instead of the required 160 bits",
   "license": "MIT",
   "author": "Frugal-Wizard",
@@ -11,11 +11,11 @@
     "test": "mocha"
   },
   "dependencies": {
-    "@theorderbookdex/abi2ts-lib": "~0.1.0"
+    "@theorderbookdex/abi2ts-lib": "~0.2.0"
   },
   "devDependencies": {
-    "@theorderbookdex/abi2ts": "~0.1.0",
-    "@theorderbookdex/contract-test-helper": "~0.1.0",
+    "@theorderbookdex/abi2ts": "~0.2.0",
+    "@theorderbookdex/contract-test-helper": "~0.2.0",
     "@theorderbookdex/solidity-compiler": "0.8.15",
     "@types/chai": "~4.3.1",
     "@types/chai-as-promised": "~7.1.5",
