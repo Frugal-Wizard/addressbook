@@ -8,7 +8,9 @@
   "repository": "https://github.com/TheOrderbookDEX/addressbook.git",
   "scripts": {
     "prepare": "gulp",
-    "test": "mocha"
+    "test": "mocha",
+    "lint": "eslint . --ext .ts",
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@theorderbookdex/abi2ts-lib": "~0.2.0"
