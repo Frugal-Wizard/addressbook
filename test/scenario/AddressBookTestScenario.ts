@@ -1,4 +1,4 @@
-import { applySetupActions, BaseTestContext, TestScenario, TestScenarioProperties } from '@theorderbookdex/contract-test-helper';
+import { applySetupActions, BaseTestContext, TestScenario, TestScenarioProperties } from '@frugal-wizard/contract-test-helper';
 import { AddressBook } from '../../dist/AddressBook';
 import { AddressBookState } from '../state/AddressBookState';
 

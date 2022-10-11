@@ -1,6 +1,6 @@
 import { RegisterAction } from '../action/RegisterAction';
 import { describer } from '../describer/describer';
-import { generatorChain, permutations, range } from '@theorderbookdex/contract-test-helper';
+import { generatorChain, permutations, range } from '@frugal-wizard/contract-test-helper';
 import { AddrTestScenario } from '../scenario/AddrTestScenario';
 
 export const addrTestScenarios: Iterable<AddrTestScenario> = generatorChain(function*() {

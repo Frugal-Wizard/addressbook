@@ -1,4 +1,4 @@
-import { AddContextFunction } from '@theorderbookdex/contract-test-helper';
+import { AddContextFunction } from '@frugal-wizard/contract-test-helper';
 import { AddressBookTestContext, AddressBookTestScenario, AddressBookTestScenarioProperties } from './AddressBookTestScenario';
 
 export interface AddrTestScenarioProperties extends AddressBookTestScenarioProperties {

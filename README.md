@@ -12,13 +12,13 @@ Using an address book also has the beneficial side-effect of helping prevent the
 
 The Solidity source code might be used as is and is not expected to change.
 
-The package also distributes javascript code generated using [abi2ts](https://github.com/TheOrderbookDEX/abi2ts), which is not currently stable, so don't rely on it.
+The package also distributes javascript code generated using [abi2ts](https://github.com/Frugal-Wizard/abi2ts), which is not currently stable, so don't rely on it.
 
 ## How do I use this?
 
 ```solidity
-import { IAddressBook } from "@theorderbookdex/addressbook/contracts/interfaces/IAddressBook.sol";
-import { AddressBookUtil } from "@theorderbookdex/addressbook/contracts/utils/AddressBookUtil.sol";
+import { IAddressBook } from "@frugal-wizard/addressbook/contracts/interfaces/IAddressBook.sol";
+import { AddressBookUtil } from "@frugal-wizard/addressbook/contracts/utils/AddressBookUtil.sol";
 
 contract CrudeExample {
     using AddressBookUtil for IAddressBook;
