@@ -1,4 +1,4 @@
-import { createDeployScenario } from '../scenario/Deploy';
+import { createDeployScenario } from '../scenario/deploy';
 
 export const deployTestScenarios = [
     createDeployScenario({}),
