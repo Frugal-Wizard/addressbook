@@ -1,6 +1,6 @@
 {
   "name": "@frugal-wizard/addressbook",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "This is a Solidity smart contract created for the purpose of storing an address using 40 bits instead of the required 160 bits",
   "license": "MIT",
   "author": "Frugal-Wizard",
