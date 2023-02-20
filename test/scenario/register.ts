@@ -1,8 +1,8 @@
 import { AddressBookScenario, createAddressBookScenario } from './AddressBook';
-import { Account, describeSetupActions, EthereumSetupContext, executeSetupActions, TestSetupContext } from '@frugal-wizard/contract-test-helper';
+import { Account, describeSetupActions, EthereumSetupContext, executeSetupActions, TestSetupContext } from '@frugalwizard/contract-test-helper';
 import { AddressBookAction } from '../action/AddressBook';
 import { AddressBookState, ReadOnlyAddressBookState } from '../state/AddressBook';
-import { ContractError, Transaction } from '@frugal-wizard/abi2ts-lib';
+import { ContractError, Transaction } from '@frugalwizard/abi2ts-lib';
 import { AddressBook } from '../../src/AddressBook';
 
 export type RegisterScenario = {

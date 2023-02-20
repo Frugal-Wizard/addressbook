@@ -17,8 +17,8 @@ The package also distributes javascript code generated using [abi2ts](https://gi
 ## How do I use this?
 
 ```solidity
-import { IAddressBook } from "@frugal-wizard/addressbook/contracts/interfaces/IAddressBook.sol";
-import { AddressBookUtil } from "@frugal-wizard/addressbook/contracts/utils/AddressBookUtil.sol";
+import { IAddressBook } from "@frugalwizard/addressbook/contracts/interfaces/IAddressBook.sol";
+import { AddressBookUtil } from "@frugalwizard/addressbook/contracts/utils/AddressBookUtil.sol";
 
 contract CrudeExample {
     using AddressBookUtil for IAddressBook;

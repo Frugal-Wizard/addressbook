@@ -1,4 +1,4 @@
-import { Account, generatorChain, permutations, range } from '@frugal-wizard/contract-test-helper';
+import { Account, generatorChain, permutations, range } from '@frugalwizard/contract-test-helper';
 import { createAddrScenario } from '../scenario/addr';
 import { createRegisterAction } from '../action/register';
 

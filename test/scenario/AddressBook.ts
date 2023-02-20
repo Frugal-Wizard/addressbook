@@ -1,4 +1,4 @@
-import { createEthereumScenario, EthereumScenario, EthereumSetupContext, TestSetupContext } from '@frugal-wizard/contract-test-helper';
+import { createEthereumScenario, EthereumScenario, EthereumSetupContext, TestSetupContext } from '@frugalwizard/contract-test-helper';
 import { AddressBook } from '../../src/AddressBook';
 
 export type AddressBookScenario<Context> = EthereumScenario<Context>;

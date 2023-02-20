@@ -1,6 +1,6 @@
 {
-  "name": "@frugal-wizard/addressbook",
-  "version": "1.6.0",
+  "name": "@frugalwizard/addressbook",
+  "version": "1.6.1",
   "description": "This is a Solidity smart contract created for the purpose of storing an address using 40 bits instead of the required 160 bits",
   "license": "MIT",
   "author": "Frugal-Wizard",
@@ -18,12 +18,12 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@frugal-wizard/abi2ts-lib": "^0.8.0"
+    "@frugalwizard/abi2ts-lib": "^0.8.0"
   },
   "devDependencies": {
-    "@frugal-wizard/abi2ts": "^0.8.0",
-    "@frugal-wizard/contract-test-helper": "^0.5.0",
-    "@frugal-wizard/solidity-compiler-wrapper": "^1.2.0",
+    "@frugalwizard/abi2ts": "^0.8.1",
+    "@frugalwizard/contract-test-helper": "^0.5.1",
+    "@frugalwizard/solidity-compiler-wrapper": "^1.2.0",
     "@types/chai": "^4.3.4",
     "@types/chai-as-promised": "^7.1.5",
     "@types/mocha": "^10.0.1",

@@ -1,4 +1,4 @@
-import { Account, describeSetupActions, EthereumSetupContext, executeSetupActions, TestSetupContext } from '@frugal-wizard/contract-test-helper';
+import { Account, describeSetupActions, EthereumSetupContext, executeSetupActions, TestSetupContext } from '@frugalwizard/contract-test-helper';
 import { AddressBook } from '../../src/AddressBook';
 import { AddressBookAction } from '../action/AddressBook';
 import { AddressBookState, ReadOnlyAddressBookState } from '../state/AddressBook';

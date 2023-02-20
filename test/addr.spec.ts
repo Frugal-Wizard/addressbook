@@ -2,7 +2,7 @@ import chai from 'chai';
 import chaiAsPromised from 'chai-as-promised';
 import { expect } from 'chai';
 import { addrTestScenarios } from './scenarios/addr';
-import { ZERO_ADDRESS } from '@frugal-wizard/abi2ts-lib';
+import { ZERO_ADDRESS } from '@frugalwizard/abi2ts-lib';
 
 chai.use(chaiAsPromised);
 

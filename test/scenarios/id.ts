@@ -1,4 +1,4 @@
-import { Account, generatorChain, permutations } from '@frugal-wizard/contract-test-helper';
+import { Account, generatorChain, permutations } from '@frugalwizard/contract-test-helper';
 import { createRegisterAction } from '../action/register';
 import { createIdScenario } from '../scenario/id';
 

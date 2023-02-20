@@ -1,6 +1,6 @@
 import { createRegisterAction } from '../action/register';
 import { createRegisterScenario } from '../scenario/register';
-import { Account, generatorChain, permutations } from '@frugal-wizard/contract-test-helper';
+import { Account, generatorChain, permutations } from '@frugalwizard/contract-test-helper';
 import { AddressBookState } from '../state/AddressBook';
 import { AlreadyRegistered } from '../../src/AddressBook';
 
