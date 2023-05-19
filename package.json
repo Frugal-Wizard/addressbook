@@ -8,8 +8,8 @@
   "repository": "https://github.com/Frugal-Wizard/addressbook.git",
   "scripts": {
     "clean": "del artifacts \"src/!(tsconfig.json)\" dist",
-    "solc": "wsolc --optimize --save-input-json --output-dir artifacts contracts",
-    "abi2ts": "abi2ts --output-dir src artifacts",
+    "solc": "wsolc contracts --optimize --evmVersion paris --save-input-json --output-dir artifacts",
+    "abi2ts": "abi2ts artifacts --output-dir src",
     "compile": "tsc -p src",
     "build": "run-s clean solc abi2ts compile",
     "prepare": "npm run build",
